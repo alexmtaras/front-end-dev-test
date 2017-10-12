@@ -1,0 +1,91 @@
+/*-----------------------------------
+* 
+* Helpers
+*
+------------------------------------*/
+
+// Text case
+.all-caps {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+
+.capitals,
+.capitalize {
+	text-transform: capitalize;
+}
+
+// text sizes & weights
+.big {
+	font-size: 1.15em;
+}
+
+.x-big {
+	font-size: 1.3em;
+}
+
+.xx-big {
+	font-size: 1.45em;
+}
+
+.xxx-big {
+	font-size: 1.6em;
+}
+
+.small {
+	font-size: 0.9em;
+}
+
+.x-small {
+	font-size: 0.8em;
+}
+
+.xx-small {
+	font-size: 0.7em;
+}
+
+.xxx-small {
+	font-size: 0.6em;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.text-thin {
+	font-weight: 200;
+}
+
+.text-normal,
+.no-bold {
+	font-weight: 300;
+}
+
+b,
+strong,
+.text-bold,
+.bold {
+	font-weight: 600;
+}
+
+.text-x-bold,
+.x-bold {
+	font-weight: 700;
+}
+
+// Text Colors
+.text-black {
+	color: $black !important;
+}
+
+.text-blue {
+	color: $blue !important;
+}
+
+.text-white {
+	color: $white !important;
+}
